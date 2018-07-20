@@ -1,0 +1,284 @@
+body {
+  /*https://www.southamerica.travel/Brazil-Tours/Iguassu-Golf-Brazil-Oktoberfest-Tour/ */
+  background-color: rgba(255, 0, 0, 0.5);
+  background: url('asia.jpg') no-repeat;
+  background-size: cover;
+  color: white;
+  color: #fff;
+  margin: 0;
+  padding: 0; */
+  /* perspective: 1px; */
+  /* transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: "Luna"; */
+/* SLiding background */
+
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+ul {
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+ul li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 0px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  display: block;
+}
+
+ul li a:hover {
+  background-color: #f7f7f7;
+}
+ul li ul li {
+  display: none;
+}
+
+ul li:hover ul li {
+  display: block;
+  margin-right: 0px;
+}
+
+.center {
+    display: block;
+    margin-top: 0.5%;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 50%;
+    height: 10%;
+}
+
+.navbar {
+  position:absolute;
+  top: 25;
+  right: 30;
+}
+
+#myLogo {
+  position:absolute;
+  top: 10;
+  left: 0;
+  margin-left: 10%;
+}
+
+/* For the About Us page */
+h1 {
+  margin-top: 20%;
+  text-align: center;
+  color: brown;
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+}
+
+#australia {
+  text-align: center;
+  color: brown;
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+}
+
+/*For the About Us page */
+#underText {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+/* Main Page slogan */
+#slogan {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+}
+
+#sloganUnderText {
+  text-align: center;
+  color: #000033;
+  font-size: 30px;
+}
+
+.letter {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 10px;
+    text-shadow: 0px 0px 3px black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.letter:nth-child(1) {
+    text-align: center;
+    animation: fade 5s infinite 200ms;
+}
+.letter:nth-child(2) {
+    text-align: center;
+    animation: fade 5s infinite 400ms;
+}
+.letter:nth-child(3) {
+    text-align: center;
+    animation: fade 5s infinite 600ms;
+}
+.letter:nth-child(4) {
+    text-align: center;
+    animation: fade 5s infinite 800ms;
+}
+.letter:nth-child(5) {
+    margin-left: 32.5%;
+    text-align: center;
+    animation: fade 5s infinite 1000ms;
+}
+.letter:nth-child(6) {
+    text-align: center;
+    animation: fade 5s infinite 1200ms;
+}
+.letter:nth-child(7) {
+    text-align: center;
+    animation: fade 5s infinite 1400ms;
+}
+.letter:nth-child(8) {
+    animation: fade 5s infinite 1600ms;
+    text-align: center;
+}
+.letter:nth-child(9) {
+    text-align: center;
+    animation: fade 5s infinite 1800ms;
+}
+.letter:nth-child(10) {
+    text-align: center;
+    animation: fade 5s infinite 2000ms;
+}
+.letter:nth-child(11) {
+    text-align: center;
+    animation: fade 5s infinite 2200ms;
+}
+.letter:nth-child(12) {
+    text-align: center;
+    animation: fade 5s infinite 2400ms;
+}
+.letter:nth-child(13) {
+    text-align: center;
+    animation: fade 5s infinite 2600ms;
+}
+.letter:nth-child(14) {
+    text-align: center;
+    animation: fade 5s infinite 2800ms;
+}
+.letter:nth-child(15) {
+    text-align: center;
+    animation: fade 5s infinite 3000ms;
+}
+.letter:nth-child(16) {
+    animation: fade 5s infinite 3200ms;
+}
+.letter:nth-child(17) {
+    animation: fade 5s infinite 3400ms;
+}
+.letter:nth-child(18) {
+    animation: fade 5s infinite 3600ms;
+}
+
+@keyframes fade {
+50% {
+   opacity: 0.02;
+  }
+}
+
+/* Any paragraph */
+
+p {
+  color: black;
+}
+/* #square {
+  margin:auto;
+  width:1000px;
+  height: 500px;
+  background-color: black;
+  opacity: 0.4;
+  padding: 10px;
+} */
+
+/*For the different about us content */
+.about {
+  text-align: left;
+  color: black;
+  font-family: 'Times New Roman', serif;
+  font-size: 25px;
+}
+
+.us {
+  text-align: left;
+  color: black;
+  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.bigAbout {
+  text-align: center;
+  color: black;
+  font-family: 'Times New Roman', serif;
+  font-size: 30px;
+}
+
+/*parallax effect */
+
+.img1, .img2 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+
+  background-attachment: fixed;
+}
+
+.img1 {
+  opacity: 0;
+  background-image: url('asia.jpg');
+  background-size: cover;
+  min-height: 60%;
+}
+
+.img2 {
+  background-image: url('australia-sunset.jpg');
+  background-size: cover;
+  min-height: 100%;
+}
+
+
+.section{
+
+  padding: 50px 80px;
+}
+
+/* Color of the two sections */
+
+.section-light {
+  background-color: #f4f4f4;
+}
+
+.section-dark {
+  background-color: #dfd4fc;
+}
